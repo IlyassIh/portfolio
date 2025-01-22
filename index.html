@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="images/ih_logo-removebg (1) (1).png">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="loader-overlay" id="loader">
+        <div class="loader-text">Welcome to My Portfolio</div>
+    </div>
+    <header>
+
+        <nav class="containers">
+            <a href="#logo" class="logo"><img src="./images/ih_logo-removebg (1) (1).png" alt="logo"></a>
+            <div>
+                <ul class="menu">
+                    <li><a href="#home" class="active line">Home</a></li>
+                    <li><a href="#about" class="line">About</a></li>
+                    <li><a href="#skills" class="line">Skills</a></li>
+                    <!-- <li><a href="#projects" class="line">Projects</a></li> -->
+                    <li><a href="#contact" class="line">Contact</a></li>
+                </ul>
+
+                <ul class="side">
+                    <li><i id="close" class="fa-solid fa-x"></i></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <!-- <li><a href="#projects">Projects</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="download">
+                        <li><a href="#home" download="#">Download CV</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="download">
+                <li><a href="#home" download="#">Download CV</a></li>
+            </div>
+            <div class="toggle">
+                <i id="bars" class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ---------------------------------- Home page ---------------------------------- -->
+
+    <section id="home" class="containers home ">
+        <div class="content">
+            <div class="me">
+                <span class="title">Welcome</span>
+                <h2>Empowering Progress Through <span class="technology">Technology and Creativity</span></h2>
+                <p>Hi, I'm <strong>Ilyass IHASSANE</strong>, a passionate Junior Developer committed to crafting
+                    innovative solutions that blend functionality with aesthetic appeal. With a focus on continuous
+                    learning, I aim to drive progress by creating impactful and user-centric designs.</p>
+                <a href="#" class="contact-me">Contact Me</a>
+            </div>
+            <div class="picture" data-aos="fade-left">
+                <img src="./images/rb_5880 (1) (1).png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="containers about-me " data-aos="fade-right">
+        <div class="about-content">
+            <div class="about-pic" data-aos="fade-right">
+                <img src="./images/4707122-removebg-preview.png" alt="">
+            </div>
+
+            <div class="about-txt"  data-aos="fade-right">
+                <span class="title" data-aos="fade-right">About Me</span>
+                <h3 data-aos="fade-right">Let's get <span>to know</span> more <span>about me</span></h3>
+                <p data-aos="fade-right">I am <strong>Ilyass IHASSANE</strong>, a passionate junior full-stack developer dedicated to
+                    transforming digital concepts into reality. My proficiency spans both front-end and back-end web
+                    development, specializing in creating seamless, user-friendly interfaces with a keen focus on robust
+                    and efficient server-side functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills containers "data-aos="fade-up">
+        <div>
+            <span class="title">My Skills</span>
+            <div class="skills-content" data-aos="fade-left">
+            <div class="skills-infos">
+                <i class="fa-solid fa-pen"></i>
+                <h4>Front-end wizard</h4>
+                <p>Translate your design into code of high quality.</p>
+            </div>
+            <div class="skills-infos" data-aos="fade-left">
+                <i class="fa-solid fa-server"></i>
+                <h4>Back-end Junior</h4>
+                <p>builds powerful back-end solutions with PHP.</p>
+            </div>
+            <div class="skills-infos" data-aos="fade-left">
+                <i class="fa-solid fa-database"></i>
+                <h4>database management</h4>
+                <p>manages and optimizes databases with expertise in MySQL, SQL.</p>
+            </div>
+        </div>
+
+        <div class="tech" data-aos="fade-left">
+            <h3 data-aos="fade-left">Technologies</h3>
+            <div class="langage">
+                <div class="full-stack">
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/html.png" alt="html">
+                    </div>
+
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/css-3.png" alt="css">
+                    </div>
+
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/js.png" alt="js">
+                    </div>
+
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/icons8-bootstrap-480.png" alt="bootstrap">
+                    </div>
+
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/php.png" alt="php">
+                    </div>
+
+                    <div class="fimage" data-aos="fade-left">
+                        <img src="images/mysql.png" alt="mysql">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact containers" data-aos="fade-left">
+        <div>
+            <span class="title">Contact Us</span>
+        <div class="contact-title" data-aos="fade-left">
+            <h2>Let’s Discuss Your <span>Project</span></h2>
+            <p>Let’s create something new, different, and more meaningful. Whether it's enhancing visuals or refining concepts, I'm here for you.</p>
+        </div>
+
+        <div class="contact-main" data-aos="fade-left">
+            <div class="contact-perso">
+                <div class="method">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="details">
+                        <h4>Email Me</h4>
+                        <p>ilyassihassane@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="method">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="details">
+                        <h4>Call Me</h4>
+                        <p>+212 639-191019</p>
+                    </div>
+                </div>
+
+                <div class="method">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="details">
+                        <h4>Address</h4>
+                        <p>Beb Sebta Sale</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-mail" data-aos="fade-left">
+                <form>
+                    <div class="two-inputs">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Email">
+                    </div>
+
+                    <div class="two-inputs">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Budget">
+                    </div>
+
+                    <textarea placeholder="Your Message..."></textarea>
+                    <div class="btn">
+
+                        <button type="submit">Submit Message</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer >
+        <div class="ftr containers">
+            <div class="copyright">
+            <address>
+                © 2023-2024 All Rights Reserved
+                </address>
+            </div>
+
+            <div class="developer">
+                <p>Developed by Ilyass Ihassane</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/ihassane-ilyass-4a0988290/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/ilyass_ih11?igsh=aGtiMmE1dHJjZW4w"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        
+        </div>
+    </footer>
+<!-- AOS and Main JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+            offset: 90,
+        });
+
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            setTimeout(() => loader.classList.add('hidden'), 500); // Smooth loader hide
+        });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
